@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 25px;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    height: 25px;
+    width: 82%;
+    background: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-card {
+    border: 1px solid black;
+    height: 325px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-heading {
+    height: 35px;
+    background: black;
+    color: white;
+}
+
+.card-heading h1 {
+    line-height: 35px;
+    margin: 0;
+}
+
+.card-flex {
+    height: calc(100% - 35px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
